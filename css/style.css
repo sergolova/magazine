@@ -1,6 +1,9 @@
 :root {
     --color1: #05b1b1;
     --color2: #52339a;
+    --border-w: 4px;
+    --bg1: #dedede;
+    --bg2: #cecece;
 }
 
 header, footer, section {
@@ -99,9 +102,70 @@ header, footer {
     background-color: var(--color2);
 }
 
+.itd_circle i:hover {
+    color: var(--color1);
+}
+
 .itd_circle {
     border-radius: 50%;
-    border: var(--color1) 3px;
-    width: 50px;
-    height: 50px;
+    border: var(--border-w) solid var(--color2);
+    margin: 0 auto 15px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.about h5 {
+    cursor: pointer;
+}
+
+.about i {
+    font-size: 50px;
+    color: var(--color2);
+    border-radius: 50%;
+    /*background-color: #666;*/
+}
+
+.line {
+    width: 100px;
+    height: var(--border-w);
+    border-top: var(--border-w) solid var(--color1);
+    margin: 0 auto 30px;
+    cursor: pointer;
+}
+
+.about {
+    background-color: var(--bg1);
+}
+
+.cont {
+    display: flex;
+    background-color: #e0bc0a;
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+}
+
+.child {
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: #953838;
+    width: 100px;
+    /*height: 30px;*/
+    line-height: 30px;
+    text-align: center;
+    min-width: 20px;
+    /*max-width: 120px;*/
+    order: 2;
+    margin: 5px;
+
 }
