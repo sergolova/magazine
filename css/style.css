@@ -1,3 +1,4 @@
+/*
 :root {
     --color1: #05b1b1;
     --color2: #52339a;
@@ -116,7 +117,7 @@ header, footer {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    
+
 }
 
 .about h5 {
@@ -127,7 +128,7 @@ header, footer {
     font-size: 50px;
     color: var(--color2);
     border-radius: 50%;
-    /*background-color: #666;*/
+    !*background-color: #666;*!
 }
 
 .line {
@@ -160,12 +161,12 @@ header, footer {
     border-radius: 10px;
     background-color: #953838;
     width: 100px;
-    /*height: 30px;*/
+    !*height: 30px;*!
     line-height: 30px;
     text-align: center;
     min-width: 20px;
-    /*max-width: 120px;*/
+    !*max-width: 120px;*!
     order: 2;
     margin: 5px;
 
-}
+}*/
